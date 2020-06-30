@@ -1,126 +1,37 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en"><head>
 	<title> Example </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<script type="text/javascript" src="./vendor/bootstrap.js"></script>
- <!-- 	<script type="text/javascript" src="1.js"></script> -->
-	<link rel="stylesheet" href="./vendor/bootstrap.css">
-	<link rel="stylesheet" href="./vendor/font-awesome.css">
- 	<link rel="stylesheet" href="1.css">
- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-	
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+  <script type="text/javascript" src="1.js"></script>
+  <link rel="stylesheet" href="vendor/bootstrap.css">
+  <link rel="stylesheet" href="vendor/font-awesome.css">
+  <link rel="stylesheet" href="1.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
 </head>
-<body>
-  <div class="dongtieude">
-    <ul class="menu1">
-      <li><a href=""><i class="fa fa-check-square-o"></i>Ticketbox</a></li>
-      <li><a href=""><i class="fa fa-check-square-o"></i>Trợ lý Tiki</a></li>
-      <li><a href=""><i class="fa fa-check-square-o"></i>Ưu đãi đối tác</a></li>
-      <li><a href=""><i class="fa fa-check-square-o"></i>Đặt khách sạn</a></li>
-      <li><a href=""><i class="fa fa-check-square-o"></i>Đặt vé máy bay</a></li>
-      <li><a href=""><i class="fa fa-check-square-o"></i>Khuyến mãi HOT</a></li>
-      <li><a href=""><i class="fa fa-check-square-o"></i>Hàng quốc tế</a></li>
-      <li><a href=""><i class="fa fa-check-square-o"></i>Bán hàng cùng Tiki</a></li>
-    </ul>
-  </div>
-	<div class="container" >
-    <div class="alert alert-success" role="alert">
-     <div class="col-sm-12">
-        <div class="fa fa-check-square-o"></div><strong>Sản phẩm đã được thêm vào giỏ hàng</strong>
-     </div>
-   </div> 
-   <div class="row 1">
-     <div class="col-sm-12">
-       <h3>Giỏ Hàng(2 san pham)</h3>
-     </div>
-   </div> 
-   <div class="row">
-     <div class="col-sm-8" id="dssanpham">
-      <div class="card">
-        <div class="row">
-            <div class="col-sm-2">
-              <img src="./image/phaitraibook.jpg" alt="sp" class="img-fluid">
-            </div>
-        
-            <div class="col-sm-3">
-             <a href="" class="tieude">Phải Trái Đúng Sai (Tái Bản 2017)</a>
-             <div class="noidungsp"><span>Tác giả:</span> <a href="">Michael Sandel</a></div>
-             <div class="nhacungcap">Cung cấp bởi <a href="">Tiki Trading</a></div>
-            </div>
-            <div class="col-sm-2">
-              <div class="gia">76.434đ</div>
-              <div class="badge badge-warning"> <del>140.000đ </del> | 45%</div>
-            </div>
-            <div class="col-sm-1">
-               <input type="number" class="form-group" value="1" min="1">
-            </div>
-            <div class="col-sm-3">
-               <div class="btn btn-outline-success">update</div>
-               <div class="btn btn-outline-danger">delete</div>
-            </div>
-        </div>
-     </div>
+<body >
+	<!-- <h1>test here</h1>
+   <button type="button" id="btn">0</button> -->
+  <div class="noidungto">
+    <div class="mautrang">
+       <div class="nutpush btn btn-success btn-lg">Push</div>
     </div>
+   
+    <div class="menutrai vetrai">
+      <h3 class="display-3 text-xs-center">menu trai</h3>
+      <ul class="list-group">
+        <li class="list-group-item">mot hai ba</li>
+        <li class="list-group-item">mot hai ba</li>
+        <li class="list-group-item">mot hai ba</li>
+      </ul>
 
-     <div class="col-sm-4" id="tinhgia">
-      <div class="divtran card card-block">
-        <div class="dongtinhgia">
-        <div class="phai float-right">276.434đ</div>
-        <div class="trai">Tạm tính:</div>  
-      </div>
-      <div class="thanhtien">
-        <div class="phai float-right"> <div class="tinh">276.434đ</div> <div class="thue">(Đã bao gồm VAT nếu có)</div> </div>
-        <div class="trai">Thành tiền</div>  
-      </div>
-      </div>
-      
-
-     <div> <a href="" class="btn btn-danger btn-block" >Tiến hành đặt hàng</a></div>
-      
-
-     </div>
-   </div>
+    </div>
+    <div class="den"></div>
   </div>
-  <div class="row spkhac">
-      <div class="col-sm-12 py-4">Sản phẩm tương tự</div>
-      <div class="col-sm-3">
-        <div class="card">
-          <img src="image/dambighet.jpg" alt="" class="img-fluid">
-          <div class="card-block">
-            <h4 class="card-title">Dám Bị Ghét</h4>
-            <p class="card-text">57.555 ₫</p>
-            <a href="#" class="btn btn-danger">Chọn Mua</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="card">
-          <img src="image/20baihoc21.jpg" alt="" class="img-fluid">
-          <div class="card-block">
-            <h4 class="card-title">21 Bài Học Cho Thế Kỷ 21</h4>
-            <p class="card-text">125.482₫</p>
-            <a href="#" class="btn btn-danger">Chọn Mua</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="card">
-          <img src="image/cafe1.jpg" alt="" class="img-fluid">
-          <div class="card-block">
-            <h4 class="card-title">Cà phê Sâm 60g (1 Hộp / 30 gói)</h4>
-            <p class="card-text">500.000đ</p>
-            <a href="#" class="btn btn-danger">Chọn Mua</a>
-          </div>
-        </div>
-      </div>
-  </div>
-
- <!-- <script src='js/app.js'></script> -->
- <!-- <script>
-   SystemJS.import('js/app.js');
- </script> -->
-<script src="./js/system.js"></script>
-<script>System.import('./js/app.js')</script> 
+  
+  <!-- <script src="1.js" type="text/javascript" charset="utf-8" async defer></script> -->
 </body>
 </html>
