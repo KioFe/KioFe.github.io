@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
 	nut.onclick =function(){
 		den.classList.add('len');
 		// khoito.classList.add('dichphai');
-		// menutrai.classList.remove('vetrai');
+		menutrai.classList.remove('vetrai');
 		trangquay.classList.add('trangquay');
 
 	}
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		den.classList.remove('len');
 
 		// khoito.classList.remove('dichphai');
-		// menutrai.classList.add('vetrai');
+		menutrai.classList.add('vetrai');
 		trangquay.classList.remove('trangquay');
 	}
 },false);
