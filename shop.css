@@ -1,7 +1,7 @@
-.dongtieude {
+.dongtieude{
 	background-color: rgb(29, 113, 171);
 	width: 100%;
-	height: 30px;
+	height: 36px;
 	margin: auto;
 
 
@@ -63,4 +63,33 @@ input.form-group {
 .thue {
     color: gray;
     font-size: 12px;
+}
+
+./*dongtieude{
+	background-color: rgb(29, 113, 171);
+	width: 100%;
+	height: 36px;
+	margin: auto;*/
+
+
+}
+
+/*ul.menu2 a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 15px;
+	margin-right: 15px;
+	font-size:12px;
+	width: 20px;
+	height: 100%;
+	background-color: #6666941f;
+
+
+
+}*/
+ul.menu2 {
+    display: flex;
+    list-style: none;
+    margin-left: 219px;
 }
