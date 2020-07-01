@@ -1,15 +1,15 @@
 html,body {
 	height: 100%;
 	overflow-x:hidden; 
-	background: grey;
+	
 }
 .noidungto {
 	height: 100%;
 	transition: 0.4s;
 	/*padding-top: 10%;cubic-bezier(.38,1.41,.24,-0.19) */
 	box-sizing: border-box;
-	perspective: 2000px;
-
+	perspective: 200px;
+background-color: black;
 	
 
 }
@@ -74,7 +74,7 @@ h3.display-3.text-xs-center {
 	width: 100%;
 	background: white;
 	transition: 0.4s;
-	transform-origin: 50% 0%;
+	transform-origin: 100% 0%;
 	
 
 }
